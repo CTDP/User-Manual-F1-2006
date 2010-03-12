@@ -1,0 +1,294 @@
+---
+title: rFactor Settings
+link: {prev: tires.html, next: league-physics.html}
+lang: en
+in_menu: true
+routed_title: New webgen Website
+---
+
+## rFactor Settings
+To simulate all rules and to the right wear depending on the race length you should use the following settings. 
+Ingame
+Laps in qualifying: 
+unlimited
+Start procedure:
+Formation lap/Standing
+Number of opponents:
+21
+
+Controller.ini
+Reset FFB Time="0.00000" // reset force feedback every X seconds (0 to disable)
+
+In case your Force Feedback often stops, you can set up the time after which the FFB-settings gets reset by rFactor automatically.
+
+Steer Ratio Speed="20.00000" // Speed at which low speed steering lock override ends (for pit navigation, units are meters/sec, 0.0 to disable)
+
+Below this speed you get much more steering lock, useful for example in narrow pit lane.
+
+Keyboard Layout Override="1" // 0 = default, 1 = try Windows conversion, 2+ = attempt to use one of the existing supported keyboard layouts
+
+If you have special keyboard layouts from different countries, you may want to experiment with this option.
+Keyboard Flags="4" // Try tweaking if there are issues with multimedia keys. Add to include flag: 1=foreground, 2=exclusive, 4=allow windows key
+
+Setting "4" enables the use of Play, Pause, Stop, Forward and Backward-Keys on your Multimedia Keyboard.
+
+Mimic Steering="0" // Mimic AI or pitlane assistance with force feedback
+
+This activates (value "1") if your Force Feedback should simulate an observed driver or the AI. Usually this is set to "0".
+
+Alternate Neutral Activation="0" // whether to select neutral if shift up & shift down are pressed simultaneously
+
+This setting to "1" and you can't switch to neutral by accident. Now you will have to press gearshift-up and gearshift-down at the same time in order to shift to neutral.
+
+Alternate Rearlook Activation="1" // if left look and right look are both pressed, rearlook becomes activated
+
+If you press the keys "look left" and "look right" at the same time, you look back if this is set to "1".
+
+user.plr
+
+No AI Control="1" // AI never has control over car (except autopit)
+
+The AI will take over your car at the end of the race or the practice if set to "1".
+
+Pitcrew Push="1" // When out of fuel in pitlane, allows pitcrew to push car (use throttle and gear selection to direct)
+
+If you are in the pits, but not enough fuel to reach the garage, your pitcrew will push you, although they's invisible. ;)
+
+Any Camera HUD="1" // whether to show the HUD from any camera (in particular, tracksides)
+
+When activated it enables you to use the HUD in all cameras. So even in trackside cams the lap times can be watched.
+
+Repeat Shifts="0" // 0 = no repeat shift detection, 1 = detect and eliminate accidental repeat shifts, 2 = prevent shifting again before previous shift is completed
+
+If your steering wheel is broken and it shifts twice, although you only press the button once, you can set this to "1" and the game disables extreme fast gear double-shifting.
+
+Net Race Warning="Secondary\HornUpgrade.wav" // Signal that multiplayer game has moved to race session (empty this if you don't want the game to automatically take window focus)
+
+You are on the desktop and the race starts. This enables an signal, which brings you back to the game automatically as the race starts. If you don't want it, deactivate it.
+
+LCD Display Modes="29" // Add the modes to allow them: 1=status 2=aids 4=engine/brake temps 8=race info 16=standings
+
+This setting tells which pages you want to have in your HUD.
+
+Self In TV Rearview="0" // 0=none, 1=rear wing & wheels, 2=body & susp, 3=1+2, 4=cockpit, 5=1+4, 6=2+4, 7=all
+
+Self In Cockpit Rearview="0" // 0=none, 1=rear wing & wheels, 2=body & susp, 3=1+2, 4=cockpit, 5=1+4, 6=2+4, 7=all
+
+With this settings enabled, you can see your own car in the mirrors. One for cockpit, one for t-cam.
+
+Display Vehicle Labels="3" // 0=never 1=single-player 2=multi-player 3=always
+
+These are the names above the cars. If you want them to show up always "3", only in Multiplayer "2" and only singleplayer "1". 
+
+Garage Detail="0.20000" // LOD multiplier when vehicle is in garage (0.0-1.0)
+
+This can save a lot performance. The lower the value the less detailed are the cars in the pitgarages. This gives an FPS hit.
+
+Shadow Blur="1"
+Shadow Cache="1"
+
+News since the last patch. Shadow Blur will cost a bit performance loss, but they look much nicer.
+Shadow Cache, you'll have to try out. Some may gain some FPS.
+
+Our textures use 2048x2048 textures, this a lot to handle for graphic cards, therefore these PLR settings are important and as such are also the reason, why a the thought 1024x1204 skinpack is a waste as you can now force it, whereas in CTDP05 texture reduction was disabled.
+
+Display Vehicle Labels="0" // 0=never 1=single-player 2=multi-player 3=always
+Player Detail="3"
+Player Texture Override="-1" // For player's vehicle textures: -1=use Player Detail, 0-3=override value
+Opponent Detail="3"
+Opponent Texture Override="-1" // For opponents' vehicle textures: -1=use Opponent Detail, 0-3=override value
+
+This setting override can force a specific texture resolution. By default these are determined in the interface for player and opponent details settings, value -1, Note however, that changing game detail settings ingame can reset these override flags, but they can be edited manually with a text editor. 
+
+Example: To force 1024x1024 skin on player and opponent with maximum LOD detail, this can be achieved with this setting.
+
+Player Detail="3"
+Player Texture Override="2"
+Opponent Detail="3"
+Opponent Texture Override="2" 
+
+In terms of texture sizes this particular setting CTDP06 would than use the same texture sizes as were used in CTP05.
+
+Sky Update Frames="350" // Frames between sky and light updates
+
+Every X frames, shadows and light will be updated. Increasing this value may safe performance.
+
+Allow HUD in cockpit="1"
+
+This enables the HUD in the cockpit.
+
+Allow Swingman in Pitlane="1"
+
+This allows to use the Swingman-Cam in the pit lane. Often quite helpful.
+
+Engine Emitter Flow="1" // Whether engine smoke/flames flow over emitting vehicle
+
+Tire Emitter Flow="1" // Whether tire smoke/dust flow over emitting vehicle
+Smoke Flow="1" // Whether all smoke/flames/dust flow over non-emitting vehicles
+
+Raindrop Flow="1" // Add to enable: 1=flow over current 2=flow over other vehicles
+
+Rainspray Flow="1" // Add to enable: 1=flow over current 2=flow over other vehicles
+
+Spark Flow="1" // Add to enable: 1=flow over current 2=flow over other vehicles
+
+This is all about air turbulences of engine smoke, tire smoke, dust, rain, spray and sparks. At "1" all this will be swirling in the air aerodynamically.
+
+Self In TV Rearview="15" // add values for any that should be visible (0=none): 1=rear wing & wheels, 2=body & susp, 4=cockpit, 8=steering wheel (15=all)
+Self In Cockpit Rearview="15"
+
+Perhaps a clarification about the self view in mirrors, I know it is implied in the PLR comment anyway, but some don't seem to get it, to explain it as follows.
+To see nothing of the car in mirrors (default) setting is zero, the enable the entire car in mirrors the value should be 15. (I don't see why anyone would want to use anything else to be honest, apart form those two values, no point just to see a wing or tyre alone. 
+To me it seems you'd want them either all off or on.
+
+Display Icons="2" // Icons displayed if HUD is off: 0 = none, 1 = flags only, 2 = all
+
+Our only advice is to take "2". This shows all icons: Drive-Through Penalty, Stop And Go Penalty, high engine temperature, yellow blue, green etc.
+
+Max Framerate="0" // 0 to disable, for regular exe only, see multiplayer.ini for dedicated server framerate
+
+Here you can limit the maximum framerate of rFactor. This decreases FPS fluctuations and may avoid stuttering for some users.
+
+Auto Detail Framerate="0" // Details and visible vehicles will be automatically reduced (by up to half) if framerate is under this threshold (0 to disable)
+
+Another new and very good feature!
+If the FPS drops under this value, all visible cars and details are reduced down to half to keep the FPS up. This can be helpful for users with low FPS at the start.
+
+Delay Video Swap="0" // Whether to delay video swap if card is busy - this should only be used if framerate clearly improves - otherwise it is only delaying response time
+
+This may increase FPS, but may not. In that case, just reset to "0".
+
+Screenshot File Type="2" // 0=default (jpg), 1=bmp, 2=jpg, 3=png, 4=dds
+
+This sets the output file format for screenshots.
+
+BMP
+No Compression, big files
+JPEG
+Compression, small files
+PNG
+No Compression, big files
+DDS
+Textures, not for screenshots
+
+
+Record Replays="1" // whether to record replays or not
+
+Here you can set, if Replays should be recorded or not.
+If you are in a League and you can download the screenshots afterwards, you can disable this here, as it safes memory and disk space during driving.
+
+Save All Replay Sessions="1" // whether to save the replay from each session
+
+This set to "1", Replays of all sessions (Training, Qual, Warm-up and Race) are saved.
+
+Record To Memory="1" // record replays to memory rather than disk (may possibly reduce stuttering, but at your own risk because memory usage will be significant for long races)
+
+Replays get saved in the regular memory and after the race they get saved to hard disk. This makes the game run much smoother, but memory usage will increase heavily and you may lack memory at the end of a long race. Try it out yourself!
+
+Compress Replay="0" // whether to compress VCR file (uses less disk space but takes more time to write)
+
+Compresses the replays. The file sizes decreases, but saving the replay needs more time.
+
+Record Hotlaps="1" // whether to record hotlaps or not (must have replay recording on)
+
+Safes the fastest lap as an extra replay.
+
+Instant Replay Length="30"
+
+This defines the length in seconds of the replay you get while racing and pressing "R". 
+
+Super Player Replay="1" // record player at higher frequency
+
+Replays are saved in a better quality.
+
+Private Test Day="1"
+
+"1" starts a test day without any AI drivers, but you can add them using the "ADD AI" button.
+
+Number Track Replays="5" // how many replays to store for each track (using default naming convention only!)
+
+Number Race Results="10" // how many race results files to store (using default naming convention only!)
+
+Multi-session Results="1" // whether to store all sessions at a track in a single results file, new default is one session per file
+
+    Disconnected Results="1" // show results for clients disconnected at end of prac/qual/warmup
+
+This defines how many replays per track should be created before an old one is overwritten. 
+The 2 last ones activate whether all sessions should be saved in one file or in many files, and if players, who left the server should be saved as well.
+
+    Relative Fuel Strategy="0" // Show how much fuel to ADD, rather than how much TOTAL fuel to fill the tank up to
+
+Another new thing. Should the fuel be added or should the current fuel be increased to match an absolute value?
+Strategies work perfectly since the new Patch. We suggest "1", so you can come to box even a lap early, without having to recalculate your strategy during the race. 
+
+    Relevant Setups Only="0" // 0 = show all setups in folder, 1 = only show setups for your current vehicle
+
+Either all setups are shown in the menu, or only those created with this car.
+
+    Keep Received Setups="3" // 0=do not accept, 1=keep until next track, 2=keep until exit, 3=keep forever
+
+This defines, what should happen to received setups.
+
+0
+Accept no setups.
+1
+Receive setups and keep them, till the next track is loaded
+2
+Receive setups and keep them till you leave the game.
+3
+Save forever.
+
+MULTI Free Settings="107" // add any of the following to allow minor changes with fixed setups or parc ferme: 1=steering lock, 2=brake pressure, 4=starting fuel, 8=fuel strategy 16=tire compound, 32=brake bias, 64=front wing
+
+This setting defines the Parc-Ferme-rule. These carsettings may or may not be edited after the qualifying.
+
+    Realtime Splits="1" // 0=show race splits at sectors only, 1=realtime splits (can be toggled while driving with pit decrement key
+
+Gaps to your opponent during the race. These can be updated in realtime or "only for each sector" like in real Formula One.
+
+    Show Extra Lap="1" // 0 = show laps completed, 1 = show lap you are on
+
+How many laps should be displayed while driving?
+
+0
+Only show finished laps.
+1
+Show the current lap.
+
+One Lap To Go Warning="4" // Race only: 0=none, 1=message, 2=white flag, 3=both, Race+Qual: add 4.  Feature not implemented for timed races or lapped vehicles.
+
+One lap before finish, there is a message, which you can configure here.
+
+    Pitstop Description="1" // Gives extra info about what's taking time in pitstop
+
+This is also new and gives you additional information during pit stops. It display which task takes the longest time and the estimated required time.
+
+    Measurement Units="0" // Units for everything EXCEPT speed (0 = metric, 1 = english/imperial)
+    Speed Units="1" // 0 = MPH, 1 = KPH
+
+Choose between imperial measurements and metric measures.
+
+    Damper Units="1" // Display dampers (shocks) in garage as: 0 = setting (e.g. 1-20), 1 = rate (e.g. 1000-9000 N/m/s)
+
+Damper in the pit lane, Value "1" and you see proper N/M/s-values. "2" gives you just values from 1-20.
+
+    [ Miscellaneous ]
+    Key Repeat Rate="1"
+    AVI export width="1024"
+    AVI export height="768"
+    AVI export framerate="50.00000"
+    AVI export quality="100.00000"
+    AVI compressor fourcc="divx" // Changes compression algorithm
+
+These are additional settings for your video-output of replays, much more than you can configure ingame. And you can define the horizontal width and vertical height of the output.This are some possible codecs:
+
+none
+uncompressed
+DIVX
+compressed
+XVID
+compressed
+WMV
+compressed
+
+System recommendations

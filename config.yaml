@@ -33,3 +33,5 @@ default_processing_pipeline:
 # patterns:
 #   Copy:
 #     add: [**/*.pdf, **/*.djvu]
+
+tag.menu.min_levels: 2
