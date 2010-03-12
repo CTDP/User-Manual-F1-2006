@@ -1,0 +1,13 @@
+---
+title: Rules
+in_menu: true
+routed_title: New webgen Website
+---
+
+## Rules
+
+The qualifying session will make use of parc ferme rules. Whereby, setup limitations will be imposed across the car. The setup will not be adjustable outside of brake bias, engine boost, front wing level.
+Unfortunately we are unable to allow tyre pressure changes during the race and in garage during and after qualifying. This is an rFactor limitation, and there is nothing that can be done about this (outside of entirely disabling parc ferme). So choose your tyre pressure wisely, and ensure that it operates well during race conditions.
+The top 10 qualifiers will start on used tyres. This is a permutation of what happened in real life, unfortunately, we can't limit the number of tyres per weekend, so we find this is the best solution.
+
+Parc Ferme is adjusted to return fuel into your car after qualifying. You will get back whatever fuel you started qualifying with, for the race. This is the most similar to Qualifying session 3 of 2006 we are able to perform in rFactor. To get the best performance in qualifying, you will have to burn off fuel. Please do not ESC out of the car after performing a hot-lap, you will regain all your fuel and this will slow you down. Instead drive around, and come in to the pits for fresh tyres (again making sure not to take on any fuel) and go for another lap. For online play, you can set the final 2 practice sessions to be used as Qualy 1 and Qualy 2, where you knockout the slowest 6 cars each. Get an Admin to record places of the last 6 cars, move on to 'Qualy 2', make sure they do not drive by whatever means you can, and then do the same with "qualifying" session (used to simulate Qualy 3). 

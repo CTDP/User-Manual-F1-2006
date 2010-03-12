@@ -1,0 +1,13 @@
+---
+title: League-Physics
+in_menu: true
+link: {prev: upgrades.html}
+lang: en
+routed_title: New webgen Website
+---
+
+## League-Physics
+
+League physics for identical physics for all cars, no exception (including wheelbases). In CTDP F1 2006 V1.10, we fixed a small issue where the 'league physics' would override traction control settings in the Upgrades. Furthermore, we solved another issue, where the "HUD Shift Light/Auto Shift" upgrade does not function with league physics. To allow this, we allowed more RPM choices for some teams in this upgrade (such as Toro Rosso) to allow reasonable selections for the League physics engine.
+
+Also new in Version 1.1, we have provided a more powerful higher revving engine in the league physics, it more closely resembles the Cosworth CA2006 Series 6 engine, ther version which Cosworth had ended the season with. These physics are virtually identical to the Ferrari F248, with a Cosworth engine and Seemless shift gearbox.

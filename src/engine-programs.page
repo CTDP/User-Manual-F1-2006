@@ -1,0 +1,27 @@
+---
+title: Engine programs and engine cooling
+in_menu: true
+routed_title: New webgen Website
+---
+
+## Engine programs and engine cooling
+
+Optimum temperature of the engine will be roughly between 100ºC and 114ºC. If the engine goes above approximately 126ºC, its working life will be reduced rapidly. Engine oil temperatures increase by approximately 10ºC for every 30 seconds that the car is stationary. If you set the radiator duct so that the maximum running temperature is roughly 114ºC (during a lap), and then have to wait on the grid for 50 seconds for other car's to line up, your engine temperature will reach approximately 130ºC (under acceleration). This is what I consider a critical temperature point, as long as the engine is not at this temperature for long, you should be okay, but this is already considered a risk, particularly with an unreliable team.
+
+While driving it is possible to alter the maximum revs of the engine. You will be able to change the revs in by varying amounts per engine, in 9 steps. Engines are designed to last a realistic race distance with boost level 6, with allowance for a few critical laps during the race with higher boost levels. This does vary with team and engine somewhat. However, as a general rule, you should be able to last the distance driving 10% of the race with boost 1 and 90% of the race at boost 6. Please note that increasing revs in the engine will make it heat up faster, use more fuel and reduce it's working life. The revs that the engine uses will be important in your race strategy. Where as an upgrade description we have written '19,500RPM, 18,300RPM' for example, these correspond with Boost 1 and Boost 6 respectively. These are recommended RPM's for Qualifying and Race sessions respectively.
+
+The revs changes are made by Boost option. This can be set in both the garage and changed real time on track. However, you must remember to assign some keys/buttons to increase/decrease the "boost" that are comfortable to you while driving to change RPM in a race. It's also important to set 7th gear so that you don't bounce off the revlimiter when using race RPM down the straight. If slip-streaming, it's usually okay to temporarily boost RPM to help you pass the car ahead, or sometimes even to try protect your position from the car behind. Increasing your boost by a couple points down the straight could make the difference between the car behind finding your slip-stream and your opponent failing to get close enough.
+The engine will develop itself during the season, as with other components on the car, following the same order as that in the F1 2006 Season (as best as possible). The engines will change in their reliability, power, rpm, economy, etc... Even the environmental conditions will have an affect on the engine. Such is the elevation at Brazil's "Interlagos" circuit, (800m over sea level) that the engines will loose over 7% of their power. This of course assumes your track versions you use are available within our trackconfigsbase.ini, which while pretty comprehensive does not guarantee all 2006 F1 tracks are accounted for. This feature is unfortunately not available for tracks not driven in the 2006 season. However remains one of the many unique features that take part in CTDP 2006.
+
+Engine program 9
+The lowest wear, 
+the lowest heat,
+the lowest fuel usage,
+the lowest performance,
+the lowest rounds-per-minute
+Engine program 8-1
+Increased wear,
+increased heat, 
+increased fuel usage,
+increased performance,
+increased rounds-per-minute
