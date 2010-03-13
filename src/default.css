@@ -5,7 +5,10 @@ Version: 1.1, November 28, 2005 */
 /**************** Page and tag styles ****************/
 
 body
-{margin:0; padding:0; color:#303030; background:#fafafa url(images/bodybg.gif) top left repeat-y; font:76% Verdana,Tahoma,sans-serif;}
+{margin:0; padding:0; color:#303030; background:#fafafa url(images/bodybg.gif) top left repeat-y; font: 0.82em "Trebuchet MS",Georgia,Verdana,Sans-serif;}
+
+pre
+{overflow:auto; background-color:rgba(230, 230, 230, 0.5);border:1px solid #e0e0e0;}
 
 ul
 {list-style:circle; margin:15px 0 20px 0; font-size:0.9em;}
@@ -14,7 +17,7 @@ li
 {margin:0 0 8px 25px;}
 
 a
-{color:#d85d5d; font-weight:bold; text-decoration:none;}
+{color:#105289; font-weight:bold; text-decoration:none;}
 
 a:hover
 {color:#505050; text-decoration:underline;}
@@ -23,10 +26,10 @@ img
 {float:left; margin:0 15px 15px 0; padding:1px; background:#ffffff; border:1px solid #d0d0d0;}
 
 a img
-{border-color:#d85d5d;}
+{border-color:#105289;}
 
 a img:hover
-{background:#d85d5d; border-color:#d85d5d;}
+{background:#105289; border-color:#105289;}
 
 /**************** Sidebar area styles ****************/
 
@@ -37,10 +40,10 @@ body > #sidebar
 {position:fixed;}
 
 #sidebar h1
-{margin:20px 18px 0 5px; color:#d85d5d; font-size:1.6em; letter-spacing:-2px; text-align:right;}
+{margin:20px 18px 0 5px; color:#105289; font-size:1.6em; letter-spacing:-2px; text-align:right;}
 
 #sidebar h1 a
-{color:#d85d5d;}
+{color:#105289;}
 
 #sidebar h2, #sidebar h3
 {margin:0 20px 18px 5px; color:#808080; font-size:1.1em; font-weight:bold; letter-spacing:-1px; text-align:right;}
@@ -92,19 +95,20 @@ letter-spacing:-2px;}
 { margin:0px; padding: 0px;}
 
 #menu li.webgen-menu-submenu ul li.webgen-menu-level2 a {
-  font-size:1.0em;
+  font-size:1.1em;
   padding:1px 18px 1px 0;
 }
 
 #menu li.webgen-menu-submenu ul li.webgen-menu-item-selected a,
 #menu li.webgen-menu-submenu ul li.webgen-menu-item-selected span,
 #menu li.webgen-menu-submenu ul li.webgen-menu-submenu-inhierarchy span
-{font-size:1.0em;}
+{font-size:1.1em;}
 
 /**************** Content area styles ****************/
 
 #content
-{width:520px; margin:0 0 0 240px; padding:20px 0; background:#fafafa;}
+{width:498px; margin:0 0 0 240px; padding:20px 0; padding-right:40px;
+background:#fafafa url(images/bg_whiteflag.jpg) top right no-repeat fixed;}
 
 #content p
 {margin:0 0 20px 0; line-height:1.5em;}
@@ -113,4 +117,4 @@ letter-spacing:-2px;}
 {margin:0; color:#808080; font-weight:normal; font-size:2.5em; letter-spacing:-2px; text-align:center;}
 
 #content h2
-{clear:both; margin:30px 0 10px 0; color:#d85d5d; font-weight:normal; font-size: 2em; letter-spacing:-2px;}
+{clear:both; margin:30px 0 10px 0; color:#105289; font-weight:normal; font-size: 2em; letter-spacing:-2px;}
