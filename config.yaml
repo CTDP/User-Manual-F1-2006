@@ -34,4 +34,4 @@ default_processing_pipeline:
 #   Copy:
 #     add: [**/*.pdf, **/*.djvu]
 
-tag.menu.min_levels: 2
+tag.menu.show_current_subtree_only: true

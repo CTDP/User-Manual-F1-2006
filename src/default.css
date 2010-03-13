@@ -66,16 +66,32 @@ body > #sidebar
 {margin: 0px; padding: 0px}
 
 #menu a,  #menu span
-{display:block; width:202px; padding:5px 18px 5px 0; color:#606060; background:#e0e0e0 url(images/sidebarbg.gif) top right repeat-y; font-size:1.2em; font-weight:normal; text-decoration:none; letter-spacing:-2px;}
+{display:block;
+width:202px;
+padding:5px 18px 5px 0;
+color:#606060;
+background:#e0e0e0 url(images/sidebarbg.gif) top right repeat-y;
+font-size:1.4em;
+font-weight:normal;
+text-decoration:none;
+letter-spacing:-2px;}
 
 #menu a:hover, #menu span:hover
 {color:#303030; background:#f0f0f0 url(images/sidebarbg.gif) top right repeat-y;}
 
 #menu li.webgen-menu-item-selected a, #menu li.webgen-menu-item-selected span, #menu li.webgen-menu-submenu-inhierarchy span
-{padding:5px 18px 5px 0; background:#fafafa; border-top:2px solid #c0c0c0; border-bottom:2px solid #c0c0c0;}
+{background:#fafafa; border-top:2px solid #c0c0c0; border-bottom:2px solid #c0c0c0;}
 
 #menu li.webgen-menu-item-selected a:hover, #menu li.webgen-menu-item-selected span:hover, #menu li.webgen-menu-submenu-inhierarchy span:hover
 {color:#505050; background:#fafafa;}
+
+#menu li.webgen-menu-submenu ul 
+{ margin:0px; padding: 0px;}
+
+#menu li.webgen-menu-submenu ul li.webgen-menu-level2 a {
+  font-size:1.0em;
+  padding:1px 18px 1px 0;
+}
 
 /**************** Content area styles ****************/
 

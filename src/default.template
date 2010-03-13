@@ -20,7 +20,7 @@
       <h2>Shift into forward</h2>
 
       <div id="menu">
-        {menu: {max_levels: 1, min_levels: 2, used_nodes: files}}
+        {menu: {min_levels: 3, used_nodes: files}}
       </div>
 
       <h3>Links:</h3>
