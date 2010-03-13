@@ -39,6 +39,9 @@ body > #sidebar
 #sidebar h1
 {margin:20px 18px 0 5px; color:#d85d5d; font-size:1.6em; letter-spacing:-2px; text-align:right;}
 
+#sidebar h1 a
+{color:#d85d5d;}
+
 #sidebar h2, #sidebar h3
 {margin:0 20px 18px 5px; color:#808080; font-size:1.1em; font-weight:bold; letter-spacing:-1px; text-align:right;}
 
@@ -92,6 +95,11 @@ letter-spacing:-2px;}
   font-size:1.0em;
   padding:1px 18px 1px 0;
 }
+
+#menu li.webgen-menu-submenu ul li.webgen-menu-item-selected a,
+#menu li.webgen-menu-submenu ul li.webgen-menu-item-selected span,
+#menu li.webgen-menu-submenu ul li.webgen-menu-submenu-inhierarchy span
+{font-size:1.0em;}
 
 /**************** Content area styles ****************/
 

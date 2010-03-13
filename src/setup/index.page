@@ -1,6 +1,7 @@
 ---
 title: The first rollout
-in_menu: true
+in_menu: false
+lang: en
 sort_info: 2
 routed_title: Setup
 ---
