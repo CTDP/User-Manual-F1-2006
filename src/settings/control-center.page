@@ -21,7 +21,7 @@ Launching rFactor: 		When you click on “Launch rFactor” you will see 				mor
 “+fullproc”: 	If you have more than 1 CPU core you can activate this parameter 		so rFactor uses the additional cores.
 “-trace=1000”: If you have trouble with rFactor you can let it create a log file so a 		solution can be found. 
 	
-### Playerprofiles
+### Player profiles
 
 
 What can I do here?
@@ -73,6 +73,8 @@ Here you can switch between different menu-styles for CTDP F1 2006.
 
 
 What can I do here?
+
+TODO, this is twice
 Here you can switch between different menu styles for CTDP F1 2006. 
 
 
@@ -93,8 +95,10 @@ This wizard helps you find the optimal settings for the LeoFFB plugin. As it is 
 
 What can I do here?
 CTDP F1 2006 comes with 3 different sound-sets, so you can choose the one you prefer.
-# F1 2006 Sounds by Michael Ode: Complete new, team-based 	sounds by Michael Ode.
-#	2006 Sounds by FSONE Team: The FSONE Team gave us permission to include their sounds as well, so you can choose them if you liked them already in FSONE 06/07.
-#	CTDP 2005 & ISI-Sounds: This sound-set base uses our 2005 sounds for the V10 Toro Rosso and the V8-sounds of the BM  Sauber 2007 by ISI/CTDP. 
+
++ *F1 2006 Sounds by Michael Ode*: Complete new, team-based 	sounds by Michael Ode.
+-	*2006 Sounds by FSONE Team*: The FSONE Team gave us permission to include their sounds as well, so you can choose them if you liked them already in FSONE 06/07.
+-	*CTDP 2005 & ISI-Sounds*: This sound-set base uses our 2005 sounds for the V10 Toro Rosso and the V8-sounds of the BM  Sauber 2007 by ISI/CTDP. 
+
 If you want to drive the Safety Car, you must activate it here so you can select it in rFactor.
 Spyker/Midland: Here you can change the icon of the Spyker/Midland team. This is for all you people who want to be 100% accurate.
