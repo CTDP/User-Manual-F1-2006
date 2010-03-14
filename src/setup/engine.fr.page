@@ -1,0 +1,26 @@
+---
+title: Engine programs and engine cooling
+in_menu: true
+routed_title: Setup
+---
+
+## Réglages moteur et refroidissement
+
+La température optimale du moteur se situe approximativement entre 100° et 114º. Si la température moteur est supérieure, environ 126º, sa durée de vie sera réduite rapidement. La température d’huile augmente d'environ 10º toutes les 30 secondes pendant l’arrêt de la voiture. Si vous définissez le refroidissement de sorte que la température maximale de fonctionnement est d'environ 114 ° C (pendant un tour) et que vous devez attendre sur la grille une durée de 50 secondes pendant le positionnement des autres voitures sur la grille, le moteur atteindra environ 130 ° C (accélération). C'est ce que nous considérons comme un point critique de température, tant que le moteur n'est pas à cette température pendant de longues périodes, cela ne pose pas de problème, mais c'est un risque, en particulier si vous avez choisi une équipe avec une mécanique peu fiable.
+
+Pendant la course, il est possible de modifier le régime moteur. Vous serez en mesure de modifier les régimes par pas variables, en 9 étapes. Les moteurs sont conçus pour durer toute une course au niveau 6, vous permettant d'utiliser pour quelques tours au cours d’un moment critique de la course un niveau plus élevé. Cela varie en fonction de l'équipe et parfois sur le moteur. Toutefois, en règle générale, vous devriez être en mesure de couvrir 10% de la course avec le niveau 1 et les 90% restants au niveau 6. A noter que l'augmentation du régime moteur augmentera sa température, le fera consommer plus de carburant et réduira sa durée de vie. L'utilisation du régime moteur est importante dans votre stratégie de course.
+
+Les modifications des régimes sont ajustées avec l’option Boost le garage. N'oubliez pas d'affecter des touches/boutons (pour augmenter/diminuer le «Boost») accessibles pour vous permettre tout changement de RPM pendant une course. Il très important de régler le 7e rapport de boite, afin de ne pas atteindre le limiteur dans les lignes droites. Si nécessaire, il est utile d'augmenter temporairement le RPM pour un dépassement, ou parfois pour protéger votre position derrière vous.
+Le moteur sera développé au cours de cette même saison, de même pour les autres parties, en suivant l'ordre de la saison F1 2006 (de la meilleure façon possible). Changement de fiabilité, de puissance, rpm, etc... Même les conditions environnementales auront un effet sur le moteur. Par exemple, l'altitude du circuit Interlagos au Brésil, (800 m au-dessus du niveau de la mer) réduit la puissance des moteurs de 7%. Cela suppose bien sûr que vous utilisiez les versions des circuits dans notre trackconfigsbase.ini, le même effet n'est donc pas le même pour toutes les pistes disponibles en F1 2006. Ce n'est malheureusement pas disponible pour les pistes qui n'ont pas accueilli la saison 2006. Ce n'est qu'une des nombreuses caractéristiques uniques de CTDP 2006.
+
+Programme moteur 9
+
+- La plus faible usure, température moteur et consommation
+- La plus faible performance,
+- Le plus bas régime moteur.
+
+Programme moteur 8-1
+
+- Augmentation de l’usure, de la température moteur et de la consommation
+- Augmentation des performances
+- Augmentation du régime moteur

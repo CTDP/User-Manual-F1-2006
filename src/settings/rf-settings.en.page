@@ -19,66 +19,66 @@ Ingame
 
 In case your Force Feedback often stops, you can set up the time after which the FFB-settings gets reset by rFactor automatically.
 
-Steer Ratio Speed="20.00000" // Speed at which low speed steering lock override ends (for pit navigation, units are meters/sec, 0.0 to disable)
+    Steer Ratio Speed="20.00000" // Speed at which low speed steering lock override ends (for pit navigation, units are meters/sec, 0.0 to disable)
 
 Below this speed you get much more steering lock, useful for example in narrow pit lane.
 
-Keyboard Layout Override="1" // 0 = default, 1 = try Windows conversion, 2+ = attempt to use one of the existing supported keyboard layouts
+    Keyboard Layout Override="1" // 0 = default, 1 = try Windows conversion, 2+ = attempt to use one of the existing supported keyboard layouts
 
 If you have special keyboard layouts from different countries, you may want to experiment with this option.
 Keyboard Flags="4" // Try tweaking if there are issues with multimedia keys. Add to include flag: 1=foreground, 2=exclusive, 4=allow windows key
 
-Setting "4" enables the use of Play, Pause, Stop, Forward and Backward-Keys on your Multimedia Keyboard.
+    Setting "4" enables the use of Play, Pause, Stop, Forward and Backward-Keys on your Multimedia Keyboard.
 
-Mimic Steering="0" // Mimic AI or pitlane assistance with force feedback
+    Mimic Steering="0" // Mimic AI or pitlane assistance with force feedback
 
-This activates (value "1") if your Force Feedback should simulate an observed driver or the AI. Usually this is set to "0".
+    This activates (value "1") if your Force Feedback should simulate an observed driver or the AI. Usually this is set to "0".
 
-Alternate Neutral Activation="0" // whether to select neutral if shift up & shift down are pressed simultaneously
+    Alternate Neutral Activation="0" // whether to select neutral if shift up & shift down are pressed simultaneously
 
 This setting to "1" and you can't switch to neutral by accident. Now you will have to press gearshift-up and gearshift-down at the same time in order to shift to neutral.
 
-Alternate Rearlook Activation="1" // if left look and right look are both pressed, rearlook becomes activated
+    Alternate Rearlook Activation="1" // if left look and right look are both pressed, rearlook becomes activated
 
 If you press the keys "look left" and "look right" at the same time, you look back if this is set to "1".
 
 ### user.plr
 
-No AI Control="1" // AI never has control over car (except autopit)
+    No AI Control="1" // AI never has control over car (except autopit)
 
 The AI will take over your car at the end of the race or the practice if set to "1".
 
-Pitcrew Push="1" // When out of fuel in pitlane, allows pitcrew to push car (use throttle and gear selection to direct)
+    Pitcrew Push="1" // When out of fuel in pitlane, allows pitcrew to push car (use throttle and gear selection to direct)
 
 If you are in the pits, but not enough fuel to reach the garage, your pitcrew will push you, although they's invisible. ;)
 
-Any Camera HUD="1" // whether to show the HUD from any camera (in particular, tracksides)
+    Any Camera HUD="1" // whether to show the HUD from any camera (in particular, tracksides)
 
 When activated it enables you to use the HUD in all cameras. So even in trackside cams the lap times can be watched.
 
-Repeat Shifts="0" // 0 = no repeat shift detection, 1 = detect and eliminate accidental repeat shifts, 2 = prevent shifting again before previous shift is completed
+    Repeat Shifts="0" // 0 = no repeat shift detection, 1 = detect and eliminate accidental repeat shifts, 2 = prevent shifting again before previous shift is completed
 
 If your steering wheel is broken and it shifts twice, although you only press the button once, you can set this to "1" and the game disables extreme fast gear double-shifting.
 
-Net Race Warning="Secondary\HornUpgrade.wav" // Signal that multiplayer game has moved to race session (empty this if you don't want the game to automatically take window focus)
+    Net Race Warning="Secondary\HornUpgrade.wav" // Signal that multiplayer game has moved to race session (empty this if you don't want the game to automatically take window focus)
 
 You are on the desktop and the race starts. This enables an signal, which brings you back to the game automatically as the race starts. If you don't want it, deactivate it.
 
-LCD Display Modes="29" // Add the modes to allow them: 1=status 2=aids 4=engine/brake temps 8=race info 16=standings
+    LCD Display Modes="29" // Add the modes to allow them: 1=status 2=aids 4=engine/brake temps 8=race info 16=standings
 
 This setting tells which pages you want to have in your HUD.
 
-Self In TV Rearview="0" // 0=none, 1=rear wing & wheels, 2=body & susp, 3=1+2, 4=cockpit, 5=1+4, 6=2+4, 7=all
+    Self In TV Rearview="0" // 0=none, 1=rear wing & wheels, 2=body & susp, 3=1+2, 4=cockpit, 5=1+4, 6=2+4, 7=all
 
-Self In Cockpit Rearview="0" // 0=none, 1=rear wing & wheels, 2=body & susp, 3=1+2, 4=cockpit, 5=1+4, 6=2+4, 7=all
+    Self In Cockpit Rearview="0" // 0=none, 1=rear wing & wheels, 2=body & susp, 3=1+2, 4=cockpit, 5=1+4, 6=2+4, 7=all
 
 With this settings enabled, you can see your own car in the mirrors. One for cockpit, one for t-cam.
 
-Display Vehicle Labels="3" // 0=never 1=single-player 2=multi-player 3=always
+    Display Vehicle Labels="3" // 0=never 1=single-player 2=multi-player 3=always
 
 These are the names above the cars. If you want them to show up always "3", only in Multiplayer "2" and only singleplayer "1". 
 
-Garage Detail="0.20000" // LOD multiplier when vehicle is in garage (0.0-1.0)
+    Garage Detail="0.20000" // LOD multiplier when vehicle is in garage (0.0-1.0)
 
 This can save a lot performance. The lower the value the less detailed are the cars in the pitgarages. This gives an FPS hit.
 

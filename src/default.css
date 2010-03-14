@@ -5,7 +5,12 @@ Version: 1.1, November 28, 2005 */
 /**************** Page and tag styles ****************/
 
 body
-{margin:0; padding:0; color:#303030; background:#fafafa url(images/bodybg.gif) top left repeat-y; font: 0.82em "Trebuchet MS",Georgia,Verdana,Sans-serif;}
+{margin:0; padding:0; color:#666666; background:#fafafa url(images/bodybg.gif) top left repeat-y; font-size: 0.82em; font-family: Verdana,Helvetica,Arial,sans-serif;}
+
+h1, h2, h3 {
+font-family:"Trebuchet MS",georgia,Verdana,Helvetica,Arial,Sans-serif;
+font-weight:bold;
+}
 
 pre
 {overflow:auto; background-color:rgba(230, 230, 230, 0.5);border:1px solid #e0e0e0;}
@@ -46,10 +51,10 @@ body > #sidebar
 {color:#105289;}
 
 #sidebar h2, #sidebar h3
-{margin:0 20px 18px 5px; color:#808080; font-size:1.1em; font-weight:bold; letter-spacing:-1px; text-align:right;}
+{display:none;margin:0 20px 18px 5px; color:#808080; font-size:1.1em; font-weight:bold; letter-spacing:-1px; text-align:right;}
 
 #sidebar h3
-{margin:20px 18px 4px 5px; color:#606060;}
+{display:none;margin:20px 18px 4px 5px; color:#606060;}
 
 #sidebar  p
 {margin:0 20px 18px 5px; color:#606060; font-size:0.8em;}
@@ -62,6 +67,9 @@ body > #sidebar
 
 #sidebar li
 {margin: 0px; padding-left: 5px;}
+
+#sidebar #languages
+{padding:5px 18px 5px 0;}
 
 /**************** Navigation menu styles ****************/
 
@@ -80,7 +88,7 @@ background:#e0e0e0 url(images/sidebarbg.gif) top right repeat-y;
 font-size:1.4em;
 font-weight:normal;
 text-decoration:none;
-letter-spacing:-2px;}
+letter-spacing:-1px;}
 
 #menu a:hover, #menu span:hover
 {color:#303030; background:#f0f0f0 url(images/sidebarbg.gif) top right repeat-y;}
@@ -118,3 +126,6 @@ background:#fafafa url(images/bg_whiteflag.jpg) top right no-repeat fixed;}
 
 #content h2
 {clear:both; margin:30px 0 10px 0; color:#105289; font-weight:normal; font-size: 2em; letter-spacing:-2px;}
+
+#content img
+{max-width:480px;}

@@ -1,0 +1,15 @@
+---
+title: Upgrades
+in_menu: true
+routed_title: Setup
+---
+
+## Modifications (Upgrades)
+
+Contrôle de traction.
+
+Nous permettons le réglage du contrôle de la traction par le biais des modifications (Upgrades). Malheureusement, rFactor est plutôt restrictif pour le permettre dans le garage. Pour améliorer cette situation, nous permettons cet ajustement en plusieurs catégories.
+
+"HUD Shift Light / Auto Shift" « Voyant de passage de rapports / Passage de rapports automatiques » afin de permettre un RPM plus élevé en cas d’utilisation du passage automatique de rapports dans l’aide à la conduite. La vitesse passera une fois atteint la valeur de tours du moteur. Si vous choisissez une valeur trop élevée, la voiture ne pourra pas passer le rapport supérieur. En outre, cette variable modifie l'affichage RPM du HUD lorsque le voyant passe au rouge.
+Les conditions de traction de la piste et de la voie des stands sont configurées dans le fichier « TrackConfigsBase.ini ». Pour les pistes inconnues du fichier, des mise à jour seront disponibles régulièrement.
+Les physiques identiques pour les ligues sont également disponibles dans les modifications.

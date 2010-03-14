@@ -16,10 +16,10 @@
 
   <body>
     <div id="sidebar">
-      <h1><a href="index.html">CTDP F1 2006 User Manual</a></h1>
+      <h1><a href="{relocatable: ../}">CTDP F1 2006 User Manual</a></h1>
       <h2>Shift into forward</h2>
 
-      <div>
+      <div id="languages">
         {langbar:}
       </div>
       <div id="menu">

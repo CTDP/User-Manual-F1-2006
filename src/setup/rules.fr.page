@@ -1,0 +1,13 @@
+---
+title: Règles
+in_menu: true
+routed_title: Setup
+---
+
+## Règles
+
+La session de qualification s’effectue avec les règles du parc fermé, avec ses limites de modification de la voiture. Aucun changement de configuration ne sera possible, à l'exception de la répartition de la puissance de freinage, du régime moteur et des modifications apportées à l’aileron avant.
+Malheureusement nous ne pouvons pas permettre des changements de pression des pneus pendant la course et dans les stands pendant et après les qualifications. Il s'agit d'une limitation de rFactor, et rien ne peut être fait à ce sujet (en dehors de la désactivation du parc fermé). Alors, choisissez la pression de vos pneus de façon judicieuse, et veillez à ce qu'ils fonctionnent bien en conditions de course.
+Le top 10 des qualifications débutera en pneus usés. Il s'agit d'une adaptation de ce qui s'est passé en vrai, malheureusement, nous ne pouvons pas limiter le nombre de pneus par week-end, donc nous trouvons que c'est la meilleure solution.
+
+Après les qualifications, le niveau du carburant est réajusté dans votre voiture. Vous aurez pour la course le même niveau de carburant qu’au début des qualifications, quels que soient le nombre de tours effectués. C’est le plus similaire à la session de Q3 de 2006 que nous sommes en mesure d'effectuer dans rFactor. Pour obtenir la meilleure performance en qualification, vous devez brûler du carburant. Ne cliquez pas sur ESC après l'exécution de votre hotlap, parce que vous vous retrouverez avec la quantité de carburant du début des qualifications, ce qui vous ralentira. Continuez à tourner pour un retour dans les stands et le montage de pneus neufs (prendre garde à ne pas être ravitaillé en carburant) et la sortie d'un nouveau tour. En ce qui concerne le jeu en ligne, vous pouvez définir les deux dernières sessions d’essais comme Q1 et Q2, où sont éliminées les 6 voitures les plus lentes dans chacune des deux sessions. Élire un administrateur pour enregistrer les positions des 6 dernières voitures, puis passer à la Q2, en veillant à ce que les 6 derniers ne soient plus en mesure d’aller Q2, et enfin faire de même avec la session de Qualification (utilisée pour simuler la Q3). 

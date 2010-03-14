@@ -1,0 +1,11 @@
+---
+title: Aerodynamics
+in_menu: true
+routed_title: Setup
+---
+
+## Aérodynamique
+
+L'aileron avant sera configuré de 1 à 65° (par pas de 1°), quant à l'aileron arrière il sera compris entre 10 et 74°. En fait, le réglage de l'aileron avant doit être entre 14 et 30° (par pas de 0,25°), il est regrettable que rFactor ne vous permette pas d'ajuster l'aileron avant en degrés. En général, l'aileron arrière est choisi pour obtenir un bon grip général et une bonne vitesse de la voiture, tandis que l'aileron avant est utilisé pour fournir un bon équilibre de la voiture. La gamme des ailerons varie en fonction de la piste, mais, rappelons-le, la configuration par défaut sera équilibrée, et déjà près de la configuration optimale. En général, pour tous les 1 pas sur aileron avant, vous devrez ajouter 1 pas sur l'aileron arrière afin de maintenir l'équilibre.
+
+Il est important de souligner les turbulences de l’air d'une voiture dans CTDP F1 2006. En suivant une autre voiture, il est important d’adapter votre style de conduite et votre trajectoire, afin de rester aussi près que possible de l’autre véhicule. En fonction de la vitesse en courbe, il est possible de sentir les effets des turbulences aérodynamiques à l'avant d'une voiture que l’on suit à 1 seconde. Cette perte d'efficacité aérodynamique sera perceptible dans l'ensemble de la voiture, mais les effets sont plus prononcés à l'avant, rendant la voiture sous vireuse et donc difficile à conduire dans les courbes. Sur les pistes sinueuses où plusieurs trajectoires sont possibles, en utilisant une autre trajectoire que la voiture devant vous, vous pourrez la suivre de plus prêt.
