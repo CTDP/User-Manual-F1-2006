@@ -242,8 +242,8 @@ Gaps to your opponent during the race. These can be updated in realtime or "only
 
 How many laps should be displayed while driving?
 
-|0|Only show finished laps.|
-|1|Show the current lap.|
+- *"0"*: Only show finished laps.
+- *"1"*: Show the current lap.
 
     One Lap To Go Warning="4" // Race only: 0=none, 1=message, 2=white flag, 3=both, Race+Qual: add 4.  Feature not implemented for timed races or lapped vehicles.
 
