@@ -5,25 +5,34 @@ in_menu: true
 
 ## ControlCenter
 
-### The main menu
+Si vous avez des problèmes avec le ControlCenter (ou des idées pour l'améliorer) contactez-nous via le site web, dans des forums ou par e-mail. Les adresses sont dans le fichier LisezMoi de CTDP F1 2006. Si vous avez trouvé un bug veuillez faire un rapport aussi détaillé que possible (par exemple, l’OS que vous utilisez, quelle carte graphique vous avez, quel processeur, la version de CTDP F1 2006, les conditions d’apparition du bug, etc.)
+
+### Menu principal
 	
 ![Alt ControlCenter Main Window][cc_main]
 
-Select the language for the CC: 	Click on the flag in the upper left corner and you can select one of the installed languages.
 
-- Open the manual of the Mod: Click on the “?” icon to open the manual. It opens the manual in your default PDF-viewer.
-- Open the ReadMe of the Mod: Open the ReadMe by clicking on the “i” icon.
-- Launching rFactor: When you click on “Launch rFactor” you will see more options for starting rFactor as you like it.
+- Choix de la langue pour le CC: Cliquez simplement sur le drapeau en haut à gauche, pour accéder à toutes les langues installées (liste au choix).
+- Voir le manuel: Cliquez sur l’icône "?" pour ouvrir le manuel. Il ouvre le manuel en PDF dans la langue par défaut.
+- Voir le fichier LisezMoi: Cliquez sur l’icône "i" pour voir le fichier LisezMoi.
+- Lancer rFactor: Cliquez sur l’icône "Lancer rFactor", une boite de dialogue apparait. (L’image de fond peut varier)
 
-- “Start rFactor”: Starts the game with the selected settings.
-- “+fullproc”: If you have more than 1 CPU core you can activate this parameter so rFactor uses the additional cores.
-- “-trace=1000”: If you have trouble with rFactor you can let it create a log file so a solution can be found. 
+
+- “Lancer rFactor”: Lance rFactor avec vos paramètres choisis.
+- “+fullproc”: Si vous avez un système Multi-core (plusieurs noyaux CPU), ceci vous permet d'utiliser rFactor avec tous les cœurs. Cela n'apporte pas grand chose (rFactor n’est pas vraiment optimisé pour), mais ça ne fait pas de mal non plus.
+- “-trace=1000”: Si vous avez des plantages, démarrer rFactor, avec cette option, pour créer un fichier log "rFactor\UserData\LOG\".
+
+
+
+Le fichier s'appelle trace.txt.
+
+“Start rFactor”: Starts the game with the selected settings.
+“+fullproc”: If you have more than 1 CPU core you can activate this parameter so rFactor uses the additional cores.
+“-trace=1000”: If you have trouble with rFactor you can let it create a log file so a solution can be found. 
 	
 ### Player profiles
 
 ![Alt ControlCenter Profile Tab][cc_profile]
-
-What can I do here?
 
 Here you can update your player profile with values that we think optimize your driving experience. You can also set the path to you telemetry software so that you can start it directly out of rFactor. If you want to know which values are changed you can click on “Which values will be changed?” If you don’t like the changes you can restore a backup (only if you have created one before the update).
 
@@ -53,7 +62,8 @@ Skidwall textures: Activate this box if you want to use alternative textures fro
 
 ![Alt ControlCenter Music Tab][cc_music]
 
-Do you want to hear you own music in the menus of rFactor? You can add tracks by clicking on “Add track(s)” or delete tracks by selecting them in the left box and clicking on “Delete selected track”. 
+Do you want to hear you own music in the menus of rFactor?
+You can add tracks by clicking on “Add track(s)” or delete tracks by selecting them in the left box and clicking on “Delete selected track”. 
 		
 
 ### Menu
