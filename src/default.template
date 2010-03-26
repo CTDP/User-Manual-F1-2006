@@ -39,7 +39,7 @@
       <webgen:block name="content" />
 
       <h2>site info</h2>
-      <p>&copy; 2008-2010 CTDP | Creative Commons</p>
+      <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/de/88x31.png" /></a><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">CTDP User Manual</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.ctdp.net" property="cc:attributionName" rel="cc:attributionURL">Cars &amp; Tracks Development Project</a> is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/en/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Deutschland license</a>.</p>
     </div>
   </body>
 </html>
