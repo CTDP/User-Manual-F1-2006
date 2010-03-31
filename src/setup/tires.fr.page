@@ -16,7 +16,7 @@ La température optimale est toujours 6° au-dessus de la température initiale 
 
 |Compound|Track temperature|tyre temperature|
 |--------|-----------------|----------------|
-|01|cold|90C|
+|01      |cold             |90C|
 |01|hot|93C|
 |02|cold|90.67C|
 |02|hot|93.67C|

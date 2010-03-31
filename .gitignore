@@ -2,3 +2,4 @@ out/
 *.kpf
 .DS_store
 *.cache
+.DS_Store
