@@ -4,7 +4,7 @@ in_menu: true
 sort_info: 8
 ---
 
-## League-Physics
+h2. League-Physics
 
 League physics for identical physics for all cars, no exception (including wheelbases). In CTDP F1 2006 V1.10, we fixed a small issue where the 'league physics' would override traction control settings in the Upgrades. Furthermore, we solved another issue, where the "HUD Shift Light/Auto Shift" upgrade does not function with league physics. To allow this, we allowed more RPM choices for some teams in this upgrade (such as Toro Rosso) to allow reasonable selections for the League physics engine.
 

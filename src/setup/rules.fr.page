@@ -4,7 +4,7 @@ in_menu: true
 sort_info: 4
 ---
 
-## Règles
+h2. Règles
 
 La session de qualification s’effectue avec les règles du parc fermé, avec ses limites de modification de la voiture. Aucun changement de configuration ne sera possible, à l'exception de la répartition de la puissance de freinage, du régime moteur et des modifications apportées à l’aileron avant.
 Malheureusement nous ne pouvons pas permettre des changements de pression des pneus pendant la course et dans les stands pendant et après les qualifications. Il s'agit d'une limitation de rFactor, et rien ne peut être fait à ce sujet (en dehors de la désactivation du parc fermé). Alors, choisissez la pression de vos pneus de façon judicieuse, et veillez à ce qu'ils fonctionnent bien en conditions de course.

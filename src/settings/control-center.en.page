@@ -3,102 +3,92 @@ title: ControlCenter
 in_menu: true
 ---
 
-## ControlCenter
+h2. ControlCenter
 
-### The main menu
+h3. The main menu
 	
-![Alt ControlCenter Main Window][cc_main]
+!../images/cc_main.jpg(ControlCenter Main Window)
 
 Select the language for the CC: 	Click on the flag in the upper left corner and you can select one of the installed languages.
 
-- Open the manual of the Mod: Click on the “?” icon to open the manual. It opens the manual in your default PDF-viewer.
-- Open the ReadMe of the Mod: Open the ReadMe by clicking on the “i” icon.
-- Launching rFactor: When you click on “Launch rFactor” you will see more options for starting rFactor as you like it.
+* Open the manual of the Mod: Click on the “?” icon to open the manual. It opens the manual in your default PDF-viewer.
+* Open the ReadMe of the Mod: Open the ReadMe by clicking on the “i” icon.
+* Launching rFactor: When you click on “Launch rFactor” you will see more options for starting rFactor as you like it.
 
-- “Start rFactor”: Starts the game with the selected settings.
-- “+fullproc”: If you have more than 1 CPU core you can activate this parameter so rFactor uses the additional cores.
-- “-trace=1000”: If you have trouble with rFactor you can let it create a log file so a solution can be found. 
+* “Start rFactor”: Starts the game with the selected settings.
+* “+fullproc”: If you have more than 1 CPU core you can activate this parameter so rFactor uses the additional cores.
+* “-trace=1000”: If you have trouble with rFactor you can let it create a log file so a solution can be found. 
 	
-### Player profiles
+h3. Player profiles
 
-![Alt ControlCenter Profile Tab][cc_profile]
+!../images/cc_main.jpg(ControlCenter Profile Tab)
 
 What can I do here?
 
 Here you can update your player profile with values that we think optimize your driving experience. You can also set the path to you telemetry software so that you can start it directly out of rFactor. If you want to know which values are changed you can click on “Which values will be changed?” If you don’t like the changes you can restore a backup (only if you have created one before the update).
 
-### Cameras
+h3. Cameras
 
-![Alt ControlCenter Cameras Tab][cc_cameras]
+!../images/cc_main.jpg(ControlCenter Cameras Tab)
 
 Everyone likes a different driving cam so you can select one here. CTDP F1 2006 comes with 3 different TV-Cockpit-Cams:
 
-- Centered Cams: Camera is in a central position.
-- Default Cams: Camera is a bit to the left of the central position.
-- Realistic Cams: Camera is like the real F1 TV-Cam on the left side of the airbox.
+* Centered Cams: Camera is in a central position.
+* Default Cams: Camera is a bit to the left of the central position.
+* Realistic Cams: Camera is like the real F1 TV-Cam on the left side of the airbox.
 
 To install a selected camera click on “Install Set”. We suggest to try the different cams so you can find the one that best fits your preference.
 
-### Graphic settings
+h3. Graphic settings
 
-![Alt ControlCenter Graphic Settings Tab][cc_graphics]
+!../images/cc_main.jpg(ControlCenter Graphic Settings Tab)
 
-Level of Detail: Here you can set the Level of Detail. Lower it as needed if you do not have enough frames per second in rFactor with CTDP F1 2006.
-Tyre Textures: You can choose from four different tyre textures, ranging from brand new to very worn out.
-Grooved skid marks: Activate this box if you want to use alternative textures from F1Alive.
+* Level of Detail: Here you can set the Level of Detail. Lower it as needed if you do not have enough frames per second in rFactor with CTDP F1 2006.
+* Tyre Textures: You can choose from four different tyre textures, ranging from brand new to very worn out.
+* Grooved skid marks: Activate this box if you want to use alternative textures from F1Alive.
 Skidwall textures: Activate this box if you want to use alternative textures from Ace8.
 
 
-### Music
+h3. Music
 
-![Alt ControlCenter Music Tab][cc_music]
+!../images/cc_main.jpg(ControlCenter Music Tab)
 
 Do you want to hear you own music in the menus of rFactor? You can add tracks by clicking on “Add track(s)” or delete tracks by selecting them in the left box and clicking on “Delete selected track”. 
 		
 
-### Menu
+h3. Menu
 
-![Alt ControlCenter Menu Tab][cc_menues]
+!../images/cc_main.jpg(ControlCenter Menu Tab)
 
 Here you can switch between different menu-styles for CTDP F1 2006.
 
 
-### TV/Spotter
+h3. TV/Spotter
 
-![Alt ControlCenter Plugins Tab][cc_plugins]
+!../images/cc_main.jpg(ControlCenter Plugins Tab)
 
 TODO, this is twice
 Here you can switch between different menu styles for CTDP F1 2006. 
 
 
-### FFB-Plugins
+h3. FFB-Plugins
 
-![Alt ControlCenter FFB-Plugins Tab][cc_ffbplugins]
+!../images/cc_main.jpg(ControlCenter FFB-Plugins Tab)
 
 The RealFeel Plugin has no config-tool in its current version(Dec 2008) so you can active or deactivate it via the CC and save the optimal settings for CTDP F1 2006 in the “realfeelplugin.ini” file. 
 
 This wizard helps you find the optimal settings for the LeoFFB plugin. As it is a guided wizard, there is no need to get into detail in this manual. 
 
 
-### Misc.
+h3. Misc.
 
-![Alt ControlCenter Misc Tab][cc_sounds]
+!../images/cc_main.jpg(ControlCenter Misc Tab)
 
 CTDP F1 2006 comes with 3 different sound-sets, so you can choose the one you prefer.
 
-- *F1 2006 Sounds by Michael Ode*: Complete new, team-based 	sounds by Michael Ode.
--	*2006 Sounds by FSONE Team*: The FSONE Team gave us permission to include their sounds as well, so you can choose them if you liked them already in FSONE 06/07.
--	*CTDP 2005 & ISI-Sounds*: This sound-set base uses our 2005 sounds for the V10 Toro Rosso and the V8-sounds of the BM  Sauber 2007 by ISI/CTDP. 
+* F1 2006 Sounds by Michael Ode*: Complete new, team-based 	sounds by Michael Ode.
+*	2006 Sounds by FSONE Team*: The FSONE Team gave us permission to include their sounds as well, so you can choose them if you liked them already in FSONE 06/07.
+*	CTDP 2005 & ISI-Sounds*: This sound-set base uses our 2005 sounds for the V10 Toro Rosso and the V8-sounds of the BM  Sauber 2007 by ISI/CTDP. 
 
 If you want to drive the Safety Car, you must activate it here so you can select it in rFactor.
 Spyker/Midland: Here you can change the icon of the Spyker/Midland team. This is for all you people who want to be 100% accurate.
-
-[cc_main]: ../images/cc_main.jpg
-[cc_profile]: ../images/cc_main.jpg
-[cc_menues]: ../images/cc_main.jpg
-[cc_sounds]: ../images/cc_main.jpg
-[cc_graphics]: ../images/cc_main.jpg
-[cc_music]: ../images/cc_main.jpg
-[cc_ffbplugins]: ../images/cc_main.jpg
-[cc_plugins]: ../images/cc_main.jpg
-[cc_cameras]: ../images/cc_main.jpg

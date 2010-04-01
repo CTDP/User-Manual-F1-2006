@@ -4,7 +4,7 @@ in_menu: true
 sort_info: 5
 ---
 
-## Aerodynamics
+h3. Aerodynamics
 
 Front wing will be configured from 1 to 65 (in steps of 1), meanwhile the rear wing will be between 10 and 74 degrees. In actual fact, the front wing range is approximately 14-30 degrees, with 0.25 degree increments, it is unfortunate that rFactor can not display the front wing in degrees. In general, the rear wing is chosen to get enough general grip and top speed in the car, while the front wing is used to deliver good balance in the car. The wing ranges will vary at each track, but remember the default setup will be balanced, and already close to the optimum. As a rule of thumb, for every 1 click of front wing, you will need to add 1 click of rear wing to maintain balance.
 

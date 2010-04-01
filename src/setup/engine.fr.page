@@ -4,7 +4,7 @@ in_menu: true
 sort_info: 2
 ---
 
-## Réglages moteur et refroidissement
+h2. Réglages moteur et refroidissement
 
 La température optimale du moteur se situe approximativement entre 100° et 114º. Si la température moteur est supérieure, environ 126º, sa durée de vie sera réduite rapidement. La température d’huile augmente d'environ 10º toutes les 30 secondes pendant l’arrêt de la voiture. Si vous définissez le refroidissement de sorte que la température maximale de fonctionnement est d'environ 114 ° C (pendant un tour) et que vous devez attendre sur la grille une durée de 50 secondes pendant le positionnement des autres voitures sur la grille, le moteur atteindra environ 130 ° C (accélération). C'est ce que nous considérons comme un point critique de température, tant que le moteur n'est pas à cette température pendant de longues périodes, cela ne pose pas de problème, mais c'est un risque, en particulier si vous avez choisi une équipe avec une mécanique peu fiable.
 
@@ -15,12 +15,12 @@ Le moteur sera développé au cours de cette même saison, de même pour les aut
 
 Programme moteur 9
 
-- La plus faible usure, température moteur et consommation
-- La plus faible performance,
-- Le plus bas régime moteur.
+* La plus faible usure, température moteur et consommation
+* La plus faible performance,
+* Le plus bas régime moteur.
 
 Programme moteur 8-1
 
-- Augmentation de l’usure, de la température moteur et de la consommation
-- Augmentation des performances
-- Augmentation du régime moteur
+* Augmentation de l’usure, de la température moteur et de la consommation
+* Augmentation des performances
+* Augmentation du régime moteur

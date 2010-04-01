@@ -4,7 +4,7 @@ in_menu: true
 sort_info: 8
 ---
 
-## Physiques de Ligues
+h2. Physiques de Ligues
 
 Les physiques pour les ligues sont identique pour toutes les voitures, aucune exception (y compris les empattements). Dans CTDP F1 2006 V1.10, nous avons corrigé un petit problème où les "physiques Ligue" l'emporteraient sur les paramètres de contrôle de traction dans les Upgrades. En outre, nous avons résolu une autre question, où le "HUD Shift Light / Auto Shift" ne fonctionne pas avec les physiques pour les ligues. Pour permettre cela, nous avons autorisé un peu plus de choix de RPM pour certaines équipes (tels que les Toro Rosso) pour permettre un choix de moteur correct.
 Dans la version 1.10, nous avons inclus un moteur plus puissant pour les ligues, il ressemble davantage au moteur Cosworth CA2006 Série 6, la version Cosworth qui a terminé cette saison. 

@@ -4,13 +4,13 @@ in_menu: true
 sort_info: 7
 ---
 
-## Upgrades
+h2. Upgrades
 
 Traction Control Level.
 
 We allow adjustable traction control through the upgrades. Unfortunately, rFactor is rather restrictive in what it allows within the garage. To improve matters, we allow this to be adjusted in fairly broad categories.
 "HUD Shift Light/Auto Shift"  This serves only 2 purposes, to allow more RPM with the auto-shift driving aid. By shifting at exactly the RPM specified here. If you choose a value too high then the car will not upshift at all! Furthermore, This variable changes the HUD display at which RPM the gear display changes to red.
 
-Traction Conditions and Track Configuration are forced per track by entries in the @TrackConfigsBase.ini@. Furthermore for unknown tracks they are forced to 'Post Season' upgrade and Standard day air pressures. This used to be Pre-season upgrade before V1.10.
+Traction Conditions and Track Configuration are forced per track by entries in the 'TrackConfigsBase.ini'. Furthermore for unknown tracks they are forced to 'Post Season' upgrade and Standard day air pressures. This used to be Pre-season upgrade before V1.10.
 
 League physics are also forced off by default in our mod.

@@ -4,10 +4,10 @@ in_menu: true
 sort_info: 4
 ---
 
-## Credits
+h2. Credits
 
 
-### 3D Artists
+h3. 3D Artists
 
 Alexander Borro,
 Andreas Neidhardt,
@@ -22,7 +22,7 @@ Matthew Scerri,
 Omar Shaikly,
 Wai Keen Lam
 
-### 2D Artists
+h3. 2D Artists
 
 Daniel Senff,
 Florian Gramsch,
@@ -36,36 +36,36 @@ Roberto Yermo,
 Shaun Stroud,
 Steffen Krägelin
 
-### Physics
+h3. Physics
 
 Alvaro Jiménez,
 Michael Borda,
 Sascha Grindau
 
-### Programmers
+h3. Programmers
 
 Daniel Fredrich
 
-### SOUNDS
+h3. SOUNDS
 
 Michael Ode
 
-### Music
+h3. Music
 
 Lars J. Brouwer,
 
 "The Beginning of the End", performed by Nine Inch Nails, remixed by Stefan Tapper - remix.nin.com
 
-### Video compositing
+h3. Video compositing
 
 Stefan Tapper,
 Stabitz
 
-### Cameras
+h3. Cameras
 
 Dennis Fischbach
 
-### Misc
+h3. Misc
 
 Stefan Triefellner for help with Safety Car gauges,
 TechAde for ReelFeel FFB Plugin,
@@ -77,11 +77,11 @@ Ace8 for the Skidwall texture,
 prunn for his tv styles,
 Luca de Leo for FSOne sounds
 
-### Translations
+h3. Translations
 
 Game_Fr alias F1.JeanPhi,Totorman, AngeEve, Maug, Will, Yoss, Dedios 
 
-### Special Thanks
+h3. Special Thanks
 
 Image Space Incorporated,
 Joe Campana,
@@ -96,12 +96,12 @@ and testers,
 Readers of our Development Blog,
 And everyone else who was involved or contributed to this project. 
 
-### Research
+h3. Research
 
 Andy Hone,
 Steffen Max
 
-### Betatesters
+h3. Betatesters
 
 From CTDP
 

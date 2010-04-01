@@ -4,7 +4,7 @@ in_menu: true
 sort_info: 6
 ---
 
-## Pneus
+h2. Pneus
 
 CTDP 2006 est caractérisé par la présence de 10 types de pneus, de super tendre à super dur, avec deux composés pour chaque type. Ces composés sont classés en fonction de la température de fonctionnement.
 Les pneus sont différents selon le fabricant, Michelin ou Bridgestone, ils ont des comportements différents et différents types de prestations. En outre, il y a aussi une sorte de gomme plus difficile à déterminer pour la course des Etats-Unis, comme dans la réalité.
@@ -14,13 +14,12 @@ La chose la plus importante concernant les pneumatiques est la température. Il 
 Un autre aspect que nous devons expliquer est l'adhérence des pneus qui est en 3 étapes. La première étape (5% à 10% de leur usure) l'adhérence diminue plus rapidement, de sorte que nous avons seulement une ou deux occasions de faire un tour rapide en qualification par exemple. La deuxième étape, l'adhérence diminue lentement et sera presque non appréciable. Cette étape est à 80% de leur durée de vie. La dernière sera de 5% à 10% de leur fin de vie, juste avant que le pneu arrive à la toile, et l'adhérence diminue plus rapidement que les autres stades.
 La température optimale est toujours 6° au-dessus de la température initiale des pneumatiques. C'est pourquoi il est relativement simple de connaître la température optimale.
 
-|Compound|Track temperature|tyre temperature|
-|--------|-----------------|----------------|
-|01      |cold             |90C|
-|01|hot|93C|
-|02|cold|90.67C|
-|02|hot|93.67C|
-|10|cold|96C|
-|10|hot|99C|
+|_.Compound|_.Track temperature|_.tyre temperature|
+|01        |cold               |90C               |
+|01        |hot                |93C               |
+|02        |cold               |90.67C            |
+|02        |hot                |93.67C            |
+|10        |cold               |96C               |
+|10        |hot                |99C               |
 
 Même la pression des pneus est un aspect essentiel. La pression idéale dépend principalement de la piste, les pistes les plus lentes exigent moins de pression, tandis que les pistes les plus rapides en ont plus besoin. À l'arrière, près de 110 kPa est idéal pour Monaco, près de 125 kpa est idéal pour Barcelone. La pression à l'avant doit toujours être supérieure d'environ 5-10 kpa.

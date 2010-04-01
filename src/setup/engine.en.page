@@ -4,7 +4,7 @@ in_menu: true
 sort_info: 2
 ---
 
-## Engine programs and engine cooling
+h2. Engine programs and engine cooling
 
 Optimum temperature of the engine will be roughly between 100ºC and 114ºC. If the engine goes above approximately 126ºC, its working life will be reduced rapidly. Engine oil temperatures increase by approximately 10ºC for every 30 seconds that the car is stationary. If you set the radiator duct so that the maximum running temperature is roughly 114ºC (during a lap), and then have to wait on the grid for 50 seconds for other car's to line up, your engine temperature will reach approximately 130ºC (under acceleration). This is what I consider a critical temperature point, as long as the engine is not at this temperature for long, you should be okay, but this is already considered a risk, particularly with an unreliable team.
 
@@ -16,14 +16,14 @@ The engine will develop itself during the season, as with other components on th
 
 Engine program 9
 
-- Lowest wear, heat and fuel usage
-- Lowest performance
-- Lowest rounds-per-minute
-- Highest durability
+* Lowest wear, heat and fuel usage
+* Lowest performance
+* Lowest rounds-per-minute
+* Highest durability
 
 Engine program 8 .. 1
 
-- Increasing heat, fuel usage
-- Increasing performance
-- Increased rounds-per-minute
-- Decreasing durability
+* Increasing heat, fuel usage
+* Increasing performance
+* Increased rounds-per-minute
+* Decreasing durability

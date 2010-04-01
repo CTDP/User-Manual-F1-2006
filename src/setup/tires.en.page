@@ -4,7 +4,7 @@ in_menu: true
 sort_info: 6
 ---
 
-## Tyres
+h2. Tyres
 
 CTDP 2006 will feature 10 tyre compounds, from super soft to super hard, with two compounds in each category. Those compounds are classified in terms of temperatures they work on.
 The tyres will be different depending on the tyre manufacturer, Michelin or Bridgestone, and will have different behaviours and different kind of possibilities. Also, it will feature a harder 'construction' for USA Speedway, as in real life.
@@ -16,13 +16,12 @@ The second stage, the grip will decrease slowly and will be almost non appreciab
 The last one will be from 5%-10% of final tyre life, just before the tyre reaches the canvas, and the grip will decrease faster than any other stage.
 Optimum temperature is always 6C above the initial temperature of the tyres. This makes it relatively straight forward to know the optimum temperature.
 
-|Compound|Track temperature|tyre temperature|
-|--------|-----------------|----------------|
-|01|cold|90C|
-|01|hot|93C|
-|02|cold|90.67C|
-|02|hot|93.67C|
-|10|cold|96C|
-|10|hot|99C|
+|_.Compound|_.Track temperature|_.tyre temperature|
+|01        |cold               |90C               |
+|01        |hot                |93C               |
+|02        |cold               |90.67C            |
+|02        |hot                |93.67C            |
+|10        |cold               |96C               |
+|10        |hot                |99C               |
 
 Tyre pressure is also a critical function. Ideal tyre pressure mainly is dependant on track, slowest tracks require the least, faster tracks require the most. At the rear, roughly 110kpa is ideal for Monaco, and up to 125kpa is ideal for Barcelona. Front pressure should always be 5-10kpa higher.

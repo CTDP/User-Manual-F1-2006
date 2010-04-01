@@ -15,8 +15,11 @@ Please see the [wiki][wiki]
 ## Authors
 
 webgen is written by [Thomas Leitner][webgen_author]
+
 User-Manual framework written by [Daniel Senff][dahie]
+
 Contents written by [Daniel Senff][dahie], [Daniel Fredrich][codan], Michael Burda
+
 Translations written by Game_Fr aka F1.JeanPhi, Totorman, AngeEve, Maug, Will, Yoss, Dedios
 
 ## License
@@ -27,4 +30,6 @@ This work is licensed under the Creative Commons Attribution-Noncommercial-Share
 [webgen_author]: http://github.com/gettalong
 [f12006]: http://www.ctdp.net/f1-2006.html
 [codan]: http://www.danielprogramming.com/
+[dahie]: http://github.com/Dahie
 [ctdp]: http://www.ctdp.net
+[wiki]: http://wiki.github.com/Dahie/DDS-Utils
