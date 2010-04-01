@@ -39,10 +39,13 @@ a img:hover
 /**************** Sidebar area styles ****************/
 
 #sidebar
-{position:absolute; top:0; left:0; width:220px; height:100%; overflow:auto; background:#e0e0e0 url(images/sidebarbg.gif) top right repeat-y; text-align:right;}
+{
+  /*position:absolute; top:0; left:0;*/
+  float: left;
+  width:220px; height:100%; overflow:auto; background:#e0e0e0 url(images/sidebarbg.gif) top right repeat-y; text-align:right;}
 
 body > #sidebar
-{position:fixed;}
+{position:relative;}
 
 #sidebar h1
 {margin:20px 18px 0 5px; color:#105289; font-size:1.6em; letter-spacing:-2px; text-align:right;}
@@ -125,7 +128,7 @@ background:#fafafa url(images/bg_whiteflag.jpg) top right no-repeat fixed;}
 {margin:0; color:#808080; font-weight:normal; font-size:2.5em; letter-spacing:-2px; text-align:center;}
 
 #content h2
-{clear:both; margin:30px 0 10px 0; color:#105289; font-weight:normal; font-size: 2em; letter-spacing:-2px;}
+{ margin:30px 0 10px 0; color:#105289; font-weight:normal; font-size: 2em; letter-spacing:-2px;}
 
 #content img
 {max-width:480px;}

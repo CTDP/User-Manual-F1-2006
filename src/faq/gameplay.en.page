@@ -1,0 +1,37 @@
+---
+title: Gameplay
+in_menu: true
+routed_title: FAQ
+---
+
+h2. FAQ: Gameplay
+
+h3. Q. How can I run F1-2006 with "All Cars and all Tracks"?
+
+CTDP F1-2006 doesn't support the “All Cars & All Tracks”- Mode. This is to prevent compatibility problems that can arise when running the mod in combination with other mods.
+
+h3. Q. Drivers are doubled in the race's driverlist or drivers are missing.
+
+Check the settings for the number of AI opponents. This has to be 21.
+
+h3. Q. When I go out onto track with multiple AI cars, all the opponent cars are the same as the team I am driving.
+
+A. Before track loading under opponents ensure you select "CTDPF1_2006" to get all teams out on track. By default when a vehicle is selected, only the vehicle filter of your own team is selected as possible AI opponent.
+
+
+
+h3. Q. The AI don’t work or are very slow.
+
+A. This is a track related issue and has been reported on some tracks. unless you know how to edit mods or happy to play offline only where mismatches are not an issue there is no quick fix at this time.
+
+h3. Q. Why do my replays crash
+
+A. while we have attempted a fix in patch 1.1 relating to music files which worked as far as we know, should it still occur try removing the music mp3 files from the music folder in the first instance to see if it resolves the issue. The music files are located in @Music\CTDP2006@. In some cases it may also be caused by a corrupt replay file.
+
+h3. Q. The game crashed randomly.
+
+This might be caused by the Spotter-Plugin. So if you have installed it try to remove/disable it.
+
+h3. Q. A mismatch is reported when joining a dedicated server, why?
+
+A. Due to a collision geometry error a mismatch will be reported when the LOD slider setting in the control center graphicsettings tab is set to medium High. Three ticks from the left or exactly set in the middle. Use either a lower or higher setting will resolve this.

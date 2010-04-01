@@ -1,0 +1,45 @@
+---
+title: Physics
+in_menu: true
+routed_title: FAQ
+---
+
+h2. FAQ: Physics
+
+h3. Q. Which driving aids should be activated?
+
+A. It is suggested to drive with full traction-control, as they did in the real F1.
+The handling of the traction-control can be setup using the upgrades.
+
+h3. Q. Can you move the traction-control to the setup-menu?
+
+A. The idea for this was pitched to ISI a long time ago and we are waiting for them to realize it.
+
+h3. Q. What’s going on with the upgrades? On some tracks the engines can rev higher or lower than others, different tyre choices and things seem to change randomly from track to track-
+
+A. For tracks that were on the FIA 2006 calender that are suported by the mod, each Team has forced upgrades and air pressures, you can try changing them in the “buy upgrades” tab in the user interface, but it wont have any effect once you go out on track if the upgrades is either Track conditions or Track Configuration these are forced in any case. Other upgrades such as the shift light and mirrors upgrades are optional. 
+
+Tracks that are not listed on the FIA 2006 Calender have forced post season physics that is effectively the same as the Brazil version of the cars on a standard air pressure day, this cannot be changed unless you edit the mod which will cause mismatches.
+
+You cannot change any upgrades between qualifying and race, this is particularly important when picking the shift light upgrade, although in version 1.1 a suitable default HUD shiftlight level is now set, should you change it, always decide your upgrade before loading the track and set it for race ! The shift light upgrade does not change the LED shift lights on the steering wheel in any way, it is for the HUD only and may also be useful for players using the autoshift driving aid.
+
+h3. Q. I cannot change the rev limit of the cars in the car setup screen and the engine revs are greyed out
+
+A. Engine rpms are controlled entirely with the boost buttons, and effectively allows the engine revs to be set in the car while driving, boost 1, maximum revs, boost 9 minimum revs.
+
+h3. Q. The steering wheel rev lights since patch 1.1 no longer light up all the way to red, sometimes only green or yellow, why?
+
+A. This is deliberate, the rev light wil only come on fully on the max available revs on max boost 1, just like reality, the rev lights on steering wheels rarely come on in race conditions. Typically on boost 6, the recommended race setting, green and yellow rev lights will come on before the limiter, letting the driver know that the engine is in the “save” zone.
+
+h3. Q. The cars that have a rev lights on the dashboard like Mclaren do not work in TV cam view but only in cockpit view
+
+A. This is not a bug, but an rFactor limitation, there is no fix, although there is a kind of fudge workaround by making the cockpit view the TVcam view if you know how.
+
+h3. Q. When racing tracks in some cars autoshifting fails to work, why?
+
+A. This is a bug that has come to light in version 1.1. Brief test shown that it affects Ferrari on non 2006 tracks, Pick a shiftlight upgrade that is lower than the max rev available for now and it will work. The default setting for the shiftlight upgrade appears to be incorrect for some cars, but it does not affect all cars. At this time it is not known which Teams/cars are affected by this. Tests have shown Midland/Spyker is correct, Ferrari is not.
+
+h3. Q. Is there a server edition with equal physics?
+
+A. There is a “dedicated server edition”, this is the regular mod without any textures and sounds.
+A mod-version with equal-physics is available for leagues on request.

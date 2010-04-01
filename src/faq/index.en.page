@@ -1,0 +1,68 @@
+---
+title: General
+in_menu: true
+sort_info: 1
+routed_title: FAQ
+---
+
+h2. FAQ: General
+
+
+h3. Q. For which game and which version is this modification?
+
+A. This Mod is only recommended for rFactor Version 1.255F. For	further	information	visit the official "rFactor Homepage":http://www.rfactor.net
+
+h3. Q. I see no car models and get loading errors after installing the mod
+
+A. More than likely you installed the server version, uninstall it, download the full version
+and reinstall.
+
+h3. Q. Do I have to launch the mod from the CTDP control center?
+
+A. No. If you use the CTDP control center to change settings and launch rfactor directly from its own shortcut it will still use those settings and work. In fact should you have any issues or crashes you may like to try this as an alternative to see if it resolves it. The launch rfactor option in the control center is there for convenience and a way to easily add other startup options to rfactor.
+
+h3. Q. When starting a championship sometimes the wrong track loads or rFactor may crash to desktop
+
+If the track is not installed this may happen. Tracks will not work unless they are exactly named to match the names in the championship list, so while one version of australia will work another may not. We have tried however to use mostly commonly available tracks that are downloadable from "rFactorCentral":http://www.rfactorcentral.com and "NoGrip":http://www.nogripracing.com. You may use championship manager to customise a championship, but as such, due to track AI inconstistencies, and the fact this mod does not come with a trackpack, championship mode is not supported and untested. Better result are achieved by running each round separately, find an AI strength setting for each track, typically 95 – 100% gives realistic AI laptimes, running it that way is the best solution. The rFactor AI track learning feature will also help to stabilise AI.
+
+h3. Q. How can I build my own season?
+
+CTDP	released	for	this	purpose	the “ChampionshipManager NX". With this tool you can create your own seasons. You can download it on our webpage.
+
+h3. Q. Is there a track-pack with all tracks?
+
+No, there is no complete track-pack. CTDP will release its tracks one by one. On rFactorPlanet:"www.rfactorcentral.com" you can find more tracks to download.
+
+h3. Q. Which tracks work with the mod?
+
+While we haven’t tested them, All tracks work, in theory, the only differene will be what upgrades are imposed as explained in the question relating to upgrades. Some track/cars may have AI issues, given the autoshift issue in 1.1 as stated in the previous item. Also some tracks the AI may not work due to issues with the track itself. See this thread for "further information":http://devblog.ctdp.net/?p=526. Some common tracks that are known to work with the upgrades are (amongst others):
+
+* "CTDP Bahrain V1":http://rfactorcentral.com/detail.cfm?ID=Bahrain%20International 
+* "Sepang GP4":http://rfactorcentral.com/detail.cfm?ID=Sepang%20GP4 
+* "Albert Pack-GP4":http://rfactorcentral.com/detail.cfm?ID=Albert%20Park%20GP4 
+* "2006 Imola GP":http://rfactorcentral.com/detail.cfm?ID=2006%20Imola%20GP 
+* "Nuerburg":http://rfactorcentral.com/detail.cfm?ID=Nuerburg 
+* "Barcelona":http://rfactorcentral.com/detail.cfm?ID=Barcelona 
+* "Monaco":http://rfactorcentral.com/detail.cfm?ID=Monaco%20New%20Layout
+* "Monaco EMG":http://rfactorcentral.com/detail.cfm?ID=Monaco%20EMG 
+* "Northamptonshire":http://rfactorcentral.com/detail.cfm?ID=Northamptonshire 
+* "Montreal":http://rfactorcentral.com/detail.cfm?ID=Montreal%20ISI
+* "Indianapolis":http://rfactorcentral.com/detail.cfm?ID=Indianapolis%20GP4 
+* "Magny Cours":http://rfactorcentral.com/detail.cfm?ID=Magny%2DCours%20GP4 
+* "Hockenheim":http://www.nogripracing.com/details.php?filenr=1004 
+
+Hungary http://rfactorcentral.com/detail.cfm?ID=Hungaroring%20EMG 
+Brianza (Monza)  http://rfactorcentral.com/detail.cfm?ID=Brianza 
+China http://rfactorcentral.com/detail.cfm?ID=Jiading http://rfactorcentral.com/detail.cfm?ID=Shanghai 
+Japan/Suzuka http://rfactorcentral.com/detail.cfm?ID=Suzuka%20GP4 http://rfactorcentral.com/detail.cfm?ID=Suzuka%20EOAA 
+Interlagos http://rfactorcentral.com/detail.cfm?ID=Interlagos%20EOAA http://rfactorcentral.com/detail.cfm?ID=Interlagos%20GP4 
+
+This is by no means the entire a list but something to get you started.
+
+h3. Q. I am missing car sounds for the safety car
+
+A. When using an rF lite installation the safety car has no sound due to missing sound files. Copy the sound folder @GameData\Vehicles\Sounds\50V8FPEngine@ from a full rfactor installation to your CTDP installation will solve this.
+
+h3. Q. Where are the moving arms?
+
+A. As of version 1.2, Moving arms can be activated in the ControlCenter

@@ -1,0 +1,58 @@
+---
+title: Graphics
+in_menu: true
+routed_title: FAQ
+---
+
+h2. FAQ: Graphics
+
+h3. Q. The offline AI cars should have the correct liveries for each track but it is not working
+
+A. Not all tracks are supported, in some cases tracks don’t support this feature well, depending on track folder structure, especially if more than one version of a track is installed and contained in the same subfolder. This is an rfactor track issue. Note that tracks that were not on the FIA 2006 calender will use a default livery.
+
+h3. Q. When I buy a car and go out on track the incorrect livery for that round is loaded.
+
+A. Human drivers must still pick their livery from the user interface,
+the automatic loading of liveries applies to AI opponents only.
+
+h3. Q. Cars fail to load in the showroom or rfactor crashes in the user interface or soon while loading a track
+
+A. The most common reason is an incorrect or a corrupt installation, or the first item in this FAQ will also cause this, however it will also be caused by a setting for the user interface, make sure that you have always set UI detail to low. This setting is contained in the user profile PLR file. Open it with notepad and it as follows,
+
+<pre>
+Low Detail UI=”1″
+</pre>
+
+This file may be found in @\UserData\playername\playername.PLR@
+
+This has no effect on the display quality of the cars in the showroom or on track.
+
+h3. Q. The mod is huge in size and the liveries occupy a large amount of disk space,
+will reducing the texture from 2048×2048 down to 1024×1024 and resaving them improve peformance?
+
+A. Read the manual for more information, contrary to what you may think, the answer is no. You can force texture sizes loaded in by rfactor already due to the DDS mipmap feature, to use a smaller texture size you specify it in the user profile, or change ingame settings, in which case the texture size is determined from the detail setting, but this can also be done independently from model (LOD) detail if desired with some edit tweaks in your user profile. 
+
+There is no need to resave hundreds of textures in the skins folders, unless you want to save diskspace.
+
+h3. Q. On some tracks the car livery looks corrupt or wrong.
+
+A. In some cases it may occur that a track and mod have conflicting textures, mosty due to sloppy and lazy naming conventions, however we have tried to reduce this in patch 1.1 by avoiding common texture names, but there is no guarentee that some tracks somewhere will cause such issues.
+
+h3. Q. After selecting the F1-2006 Mod in the Mod-menu, the driver-pictures are misplaced. After switching from F1-2006, menu-elements are missing in other mods.
+
+A. CTDP uses an own menu, which is modified to some extent and is specially optimized for the mod. Unfortunately at the moment rFactor does not reload the menu after selecting a new mod. Therefore we advise to restart the game after switching to or from our mod.
+
+h3. Q. There are graphic bugs on the cars like missing or wrong textures, on some tracks.
+
+A. The reasons for this lie mostly with bad converted tracks. CTDP tested the mod on a big number of decent tracks, but we can not test all of and therefore guarantee that the mod will work with them. And for sure we are not going to fix bugs, which are caused by poor tracks.
+
+h3. Q. I can drive through the tires of my opponents without flipping up.
+
+A. The collision-model of rFactor simulates tire-to-tire-collisions very insufficient. This is a problem on all Open-Wheel-Mods. We tried to improve this since 2005, but it's probably not optimum.
+
+h3. Q. My frame rates are very poor, what can I do?
+
+A. When racing with full grids it is recommended to set the LOD slider in the CTDP control Center to a lower setting, especially if your ingame settings are at maximum, this applies to high end systems too, reducing visible vehicles and shadows can make a large difference.
+Unless you got the latest cards like Ati 4870×2 in crossfire or Nvidia gtx280 in SLI it is still recommended setting at the LOD slider to the second highest setting at minimum. The highest setting can be used for test day or when a limited number of vehicles are on track, or for watching replays and making movie files from you replays for high fidelity results. If you do not reduce this slider from maximum, the mod will use large amounts of memory that will push close to the 32 bit limit with large number of drivers (> 25 or so). In practice most 32 bit operating systems cap at around 3.2 Gb even when 4Gb is intalled (for various reasons) !
+
+Ultimately this is a high detail mod, and detail comes at a price. To get the best result a PC with CPU core 2 duo 2.2 Ghz (or AMD equivalent) or above with 2 – 4 Gb DDR2 memory, a 256 bit 512 Mb Video card is recommended for a full 22 car grid in order to maintain reasonably good visual quality with acceptable framerates. For sure the mod will run on lesser systems, but consider reducing both ingame settings as well as setting the control center LOD slider to one of the lowest settings and use the autoFPS feature, in this way rFactor wil attempt to minimize framerate dips below a specified value.
