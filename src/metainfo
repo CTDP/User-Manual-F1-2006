@@ -1,0 +1,13 @@
+--- name:alcn
+
+setup/:
+  in_menu: false
+  sort_info: 3
+
+settings/:
+  in_menu: true
+  sort_info: 4
+  
+faq/:
+  in_menu: true
+  sort_info: 5
