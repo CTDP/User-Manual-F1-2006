@@ -143,7 +143,7 @@ Player Detail="3"
 Player Texture Override="2"
 Opponent Detail="3"
 Opponent Texture Override="2" 
-<pre>
+</pre>
 
 In terms of texture sizes this particular setting CTDP06 would than use the same texture sizes as were used in CTP05.
 
@@ -161,7 +161,7 @@ This enables the HUD in the cockpit.
 
 <pre>
 Allow Swingman in Pitlane="1"
-<pre>
+</pre>
 
 This allows to use the Swingman-Cam in the pit lane. Often quite helpful.
 
@@ -183,7 +183,7 @@ This is all about air turbulences of engine smoke, tire smoke, dust, rain, spray
 <pre>
 Self In TV Rearview="15" // add values for any that should be visible (0=none): 1=rear wing & wheels, 2=body & susp, 4=cockpit, 8=steering wheel (15=all)
 Self In Cockpit Rearview="15"
-<pre>
+</pre>
 
 Perhaps a clarification about the self view in mirrors, I know it is implied in the PLR comment anyway, but some don't seem to get it, to explain it as follows.
 To see nothing of the car in mirrors (default) setting is zero, the enable the entire car in mirrors the value should be 15. (We don't see why anyone would want to use anything else to be honest, apart form those two values, no point just to see a wing or tyre alone. 
@@ -203,14 +203,14 @@ Here you can limit the maximum framerate of rFactor. This decreases FPS fluctuat
 
 <pre>
 Auto Detail Framerate="0" // Details and visible vehicles will be automatically reduced (by up to half) if framerate is under this threshold (0 to disable)
-<pre>
+</pre>
 
 Another new and very good feature!
 If the FPS drops under this value, all visible cars and details are reduced down to half to keep the FPS up. This can be helpful for users with low FPS at the start.
 
 <pre>
 Delay Video Swap="0" // Whether to delay video swap if card is busy - this should only be used if framerate clearly improves - otherwise it is only delaying response time
-<pre>
+</pre>
 
 This may increase FPS, but may not. In that case, just reset to "0".
 
@@ -249,21 +249,29 @@ Compress Replay="0" // whether to compress VCR file (uses less disk space but ta
 Compresses the replays. The file sizes decreases, but saving the replay needs more time.
 
 Record Hotlaps="1" // whether to record hotlaps or not (must have replay recording on)
+</pre>
 
 Safes the fastest lap as an extra replay.
 
+<pre>
 Instant Replay Length="30"
+</pre>
 
 This defines the length in seconds of the replay you get while racing and pressing "R". 
 
+<pre>
 Super Player Replay="1" // record player at higher frequency
+</pre>
 
 Replays are saved in a better quality.
 
+<pre>
 Private Test Day="1"
+</pre>
 
 "1" starts a test day without any AI drivers, but you can add them using the "ADD AI" button.
 
+<pre>
 Number Track Replays="5" // how many replays to store for each track (using default naming convention only!)
 
 Number Race Results="10" // how many race results files to store (using default naming convention only!)

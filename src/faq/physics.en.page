@@ -35,6 +35,10 @@ h3. Q. The cars that have a rev lights on the dashboard like Mclaren do not work
 
 A. This is not a bug, but an rFactor limitation, there is no fix, although there is a kind of fudge workaround by making the cockpit view the TVcam view if you know how.
 
+h3. Q: When I select auto-shift assistance the car refuses to shift when I change to Boost 7 or higher.
+
+A: Due to an rFactor oversight, the 'auto-shift' aid is not self adjusting with boost levels. Our only solution was to include "HUD Shift Light/Auto Shift" upgrades. By default, we set this to shift @ B6 -200 RPM (recommeneded for race distance). You can always manually pick an RPM point however, we don't recommend to pick one that is equal to the max RPM of that boost level which you plan to use, always go at least 100RPM below this.. This is one reason we strongly recommend to use a manual shifter if you can. The Dynamic HUD now included can help with shift points when using a manual box. Note: this doesn't not affect downshifts.
+
 h3. Q. When racing tracks in some cars autoshifting fails to work, why?
 
 A. This is a bug that has come to light in version 1.1. Brief test shown that it affects Ferrari on non 2006 tracks, Pick a shiftlight upgrade that is lower than the max rev available for now and it will work. The default setting for the shiftlight upgrade appears to be incorrect for some cars, but it does not affect all cars. At this time it is not known which Teams/cars are affected by this. Tests have shown Midland/Spyker is correct, Ferrari is not.
